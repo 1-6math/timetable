@@ -1,5 +1,11 @@
+import Timetable from '../features/timetable/Timetable';
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Timetable />
+    </div>
+  );
 };
 
 export default Home;
