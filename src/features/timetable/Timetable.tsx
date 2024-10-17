@@ -1,7 +1,7 @@
 import { vacWeekend, week } from '../../shared/const/timetable';
 
 const dummy = Array(7)
-  .fill(0) // fill에 'null'을 넣어 빈 값을 채움
+  .fill(0)
   .map(() => Array(10).fill(''));
 
 const Timetable = () => {
@@ -16,11 +16,11 @@ const Timetable = () => {
         </tr>
       </thead>
       <tbody>
-        {vacWeekend.map((time, index) => (
+        {vacWeekend.map((time, timeIdx) => (
           <tr key={time}>
             <td>{time}</td>
-            {week.map((_, i) => (
-              <td key={i}>{dummy[index][i]}</td>
+            {week.map((_, dayIdx) => (
+              <td key={dayIdx}>{dummy[dayIdx][timeIdx]}</td>
             ))}
           </tr>
         ))}
