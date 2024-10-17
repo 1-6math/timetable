@@ -5,6 +5,7 @@
 // 학기중 중학교 1~2 3번 100, 105 월 수금 시간 맞도록, 화목 토 or 일 , 초 3번  중3 4번
 // 학기중 고등학생 3번 시간되는대로??   수1 수2같이 특정과목의 경우 4번
 
+export const week = ['월', '화', '수', '목', '금', '토', '일'];
 export const weekEleSchool = ['15:20']; // 1시간 40분 수업
 export const normal = ['17:00', '18:45', '20:30', '22:15'];
 export const normalWeekend = [

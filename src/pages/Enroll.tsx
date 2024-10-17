@@ -1,4 +1,4 @@
-import ScheduleForm from '../features/ScheduleForm';
+import ScheduleForm from '../features/enroll/ScheduleForm';
 
 const Enroll = () => {
   return (
