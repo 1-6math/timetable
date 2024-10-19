@@ -1,11 +1,11 @@
-interface Schedule {
+export interface Schedule {
   day: string[];
   startTime: string;
   duration: number;
   dist: number;
 }
 
-interface Student {
+export interface Student {
   name: string;
   schedule: Schedule[];
 }
